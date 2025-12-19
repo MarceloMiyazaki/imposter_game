@@ -1,0 +1,65 @@
+body{
+    background-color: grey;
+    display:grid;
+}
+
+textarea{
+    resize: none;
+    margin: 5vw 5vw 5vw 5vw;
+    text-align: center;
+    padding-top: 4vw;
+    border-radius: 2vw;
+    border: none;
+    font-size: 5vw;      
+}
+
+.resultado{
+    background-color: rgb(70, 70, 70);
+    margin: 5vw 5vw 5vw 5vw;
+    display: inline;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding: 5vw 5vw 5vw 5vw;
+    border-radius: 2vw;
+}
+.resultado button{
+    font-family: monospace;
+    background-color: rgb(70, 70, 70);
+    border: none;
+    font-size: 5vw;
+    color: grey;
+}
+
+.resultado h1{
+    padding: -20vw 0vw 5vw -5vw;
+}
+
+#prof{
+   margin: 5vw 25vw 5vw 25vw;
+   height: 15vw; 
+   font-family: monospace;
+   border-radius: 2vw;
+   border: none;
+   font-size: 5vw;
+}
+
+#jogo button{
+    width: 15vw;
+    height: 15vw;
+    border-radius: 2vw;
+    border: none;
+    font-family: monospace;
+    font-size: 5vw;
+}
+
+h1{
+    font-family: monospace;
+}
+
+#jogo{
+    display: flex;
+    justify-content: space-between;
+    margin: 5vw 5vw 5vw 5vw;
+}
+
