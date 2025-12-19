@@ -1,2 +1,1 @@
-# imposter_game
-Who's the imposter? 
+# [Who's the imposter?](https://marcelomiyazaki.github.io/imposter_game/)
