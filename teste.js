@@ -28,7 +28,6 @@ const prof = [
   "Músico",
   "Ator",
   "Dublador",
-  "Social Media",
   "Fotógrafo",
   "Dublê",
   "Redator",
@@ -59,7 +58,16 @@ const prof = [
   "Enfermeiro",
   "Fisioterapeuta",
   "Nutricionista",
-  "Relações Internacionais"
+  "Limpador de piscina",
+  "Flanelinha",
+  "Estilista",
+  "Caixa de mercado",
+  "Editor de vídeo",
+  "Pintor",
+  "Bombeiro",
+  "Astronauta",
+  "Humorista",
+  "Encanador"
 ];
 
 const lugares=[
@@ -104,7 +112,28 @@ const lugares=[
     "Acampamento",
     "Deserto",
     "Banco",
-    "Centro Militar"
+    "Centro Militar",
+    "Meu quarto",
+    "Cozinha",
+    "Garagem",
+    "Armário",
+    "Sótão",
+    "Porão",
+    "Inferno",
+    "Céu",
+    "Cristo Redentor",
+    "Castelo Medieval",
+    "Final Copa do Mundo",
+    "Cabaré",
+    "Fábrica de Refrigerante",
+    "Sorveteria",
+    "Loja de Roupa chique",
+    "Mecânico",
+    "Empresa grande",
+    "Show do Silvio Santos",
+    "Fazenda",
+    "BBB",
+    "Estação de Metrô"
 ]
 
 const animais = [
@@ -137,7 +166,81 @@ const animais = [
     "Falcão",
     "Coruja",
     "Leão",
-    "Elefante"
+    "Elefante",
+    "Hipopótamo",
+    "Ornitorrinco",
+    "Mosca",
+    "Pernilongo",
+    "Joaninha",
+    "Gafanhoto",
+    "Macaco",
+    "Papagaio",
+    "Periquito",
+    "Beija-flor",
+    "Baiacu",
+    "Esquilo",
+    "Arara Azul",
+    "Gorila",
+    "Tamanduá",
+    "Lobo Guará",
+    "Alce",
+    "Panda",
+    "Urso Polar",
+    "Penguim",
+    "Hiena",
+    "Girafa",
+    "Flamingo",
+    "Urubu",
+    "Raposa",
+    "Urso Pardo",
+    "Abelha",
+    "Burro",
+    "Lhama",
+    "Camelo",
+    "Zebra",
+    "Veado",
+    "Tatu",
+    "Touro",
+    "Leopardo",
+    "Avestruz",
+    "Jacaré",
+    "Canguru",
+    "Koala",
+    "Rinoceronte",
+    "Tucano",
+    "Lagartixa",
+    "Guaxinim",
+    "Tigre",
+    "Anta",
+    "Onça",
+    "Capivara",
+    "Peixe-espada",
+    "Peixe-pallhaço",
+    "Piranha",
+    "Candiru",
+    "Orca",
+    "Leão Marinho",
+    "Cavalo Marinho",
+    "Lagosta",
+    "Camarão",
+    "Plâncton",
+    "Planária",
+    "Babuíno",
+    "Camaleão",
+    "Ácaro",
+    "Aranha",
+    "Borboleta",
+    "Besouro",
+    "Mariposa",
+    "Barata",
+    "Formiga",
+    "Polvo",
+    "Lula",
+    "Estrela-do-mar",
+    "Ouriço-do-mar",
+    "Água Viva",
+    "Foca",
+    "Esponja-do-mar"
 ]
 
 const objetos = [
@@ -182,8 +285,91 @@ const objetos = [
   "Condicionador",
   "Pendrive",
   "Carro",
-  "HB20"
-];
+  "HB20",
+  "Controle Remoto",
+  "Televisão",
+  "Ventilador",
+  "Ar-Condicionado",
+  "Micro-ondas",
+  "Geladeira",
+  "Fogão",
+  "Liquidificador",
+  "Aspirador de Pó",
+  "Cafeteira",
+  "Cadeira",
+  "Mesa",
+  "Sofá",
+  "Luminária",
+  "Espelho",
+  "Tapete",
+  "Cortina",
+  "Quadro",
+  "Extensão Elétrica",
+  "Adaptador de Tomada",
+  "Power Bank",
+  "Caixa de Som",
+  "Impressora",
+  "Câmera",
+  "Tripé",
+  "Capacete",
+  "Guarda-chuva",
+  "Mala",
+  "Bicicleta",
+  "Patinete",
+  "Fotografia",
+  "Câmera",
+  "Impressora 3D",
+  "Pá",
+  "Machado",
+  "Enxada",
+  "Foice",
+  "Correntes",
+  "Coleira",
+  "Meia",
+  "Remédio",
+  "Vaso",
+  "Tupperware",
+  "Cueca",
+  "Cabide",
+  "Varal",
+  "Agulha",
+  "Calendário",
+  "CD",
+  "Anel",
+  "Boia",
+  "Cama",
+  "Dado",
+  "Iate",
+  "Mapa",
+  "Mola",
+  "Pano",
+  "Rede",
+  "Saia",
+  "Baú",
+  "Ímã",
+  "Álbum",
+  "Bomba",
+  "Broca",
+  "Colar",
+  "Jarra",
+  "Jornal",
+  "Pijama",
+  "Tapete",
+  "Violão",
+  "Xícara",
+  "Flauta",
+  "Estojo",
+  "Beliche",
+  "Bússola",
+  "Bengala",
+  "Diário",
+  "Esponja",
+  "Foguete",
+  "Asa Delta",
+  "Avião",
+  "Terno",
+  "Panfleto"
+]
 
 const pessoas = [
     "Elon Musk",
@@ -199,10 +385,48 @@ const pessoas = [
     "Whindersson Nunes",
     "Silvio Santos",
     "Rodrigo Faro",
-    "Luciano Huck"
+    "Luciano Huck",
+    "Pedro",
+    "João",
+    "Augusto",
+    "Davi",
+    "Dayan",
+    "Gabriel",
+    "Flavio",
+    "Marcelo",
+    "Henrique",
+    "Bruno Mars",
+    "Justin Bieber"
+    ]
+
+const clash = [
+  
 ]
 
+
 var palavra
+
+function comecar(){
+    let oxente = document.getElementById("tema").value
+    if (oxente == "prof"){
+        jogar(prof)
+    }
+    else if(oxente == "lugares"){
+        jogar(lugares)
+    }
+    else if(oxente == "animais"){
+        jogar(animais)
+    }
+    else if(oxente == "pessoas"){
+        jogar(pessoas)
+    }
+    else if(oxente == "objetos"){
+        jogar(objetos)
+    }
+    else if(oxente =="clash"){
+        jogar(clash)
+    }
+}
 
 function jogar(arr){
     palavra = arr[Math.floor(Math.random()*arr.length)]
@@ -210,19 +434,21 @@ function jogar(arr){
     let imposter = Math.floor(Math.random()*nu)
     for(let i = 0 ; i <nu; i++){
         if(i==imposter){
-            document.getElementById("jogo").innerHTML += `<button onclick="imposter()" id="${i+1}">${i+1}</button>`
+            document.getElementById("jogo").innerHTML += `<button onclick="imposter(${i+1})" id="${i+1}">${i+1}</button>`
         }
         else{
-            document.getElementById("jogo").innerHTML += `<button onclick="mostrar()" id="${i+1}">${i+1}</button>`
+            document.getElementById("jogo").innerHTML += `<button onclick="mostrar(${i+1})" id="${i+1}">${i+1}</button>`
         }
     }
 }
 
-function imposter(){
+function imposter(indice){
     document.getElementById("result").textContent = "IMPOSTOR!"
+    document.getElementById(indice).remove()
 }
-function mostrar(){
+function mostrar(indice){
     document.getElementById("result").textContent = palavra
+    document.getElementById(indice).remove()
 }
 function ocultar(){
     document.getElementById("result").textContent = ""

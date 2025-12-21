@@ -5,6 +5,7 @@ body{
 
 button{
     color: black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 textarea{
@@ -14,7 +15,8 @@ textarea{
     padding-top: 4vw;
     border-radius: 2vw;
     border: none;
-    font-size: 5vw;      
+    font-size: 5vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   
 }
 
 .resultado{
@@ -24,8 +26,9 @@ textarea{
     justify-content: space-between;
     justify-items: center;
     align-items: center;
-    padding: 5vw 5vw 5vw 5vw;
+    padding: 5vw 5vw 2vw 5vw;
     border-radius: 2vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .resultado button{
     font-family: monospace;
@@ -33,20 +36,13 @@ textarea{
     border: none;
     font-size: 5vw;
     color: grey;
+    margin: 0px;
+    box-shadow: none;
 }
 
 .resultado h1{
     padding: -20vw 0vw 5vw -5vw;
     text-align: center;
-}
-
-#prof{
-   margin: 5vw 25vw 5vw 25vw;
-   height: 15vw; 
-   font-family: monospace;
-   border-radius: 2vw;
-   border: none;
-   font-size: 5vw;
 }
 
 #jogo button{
@@ -57,6 +53,7 @@ textarea{
     font-family: monospace;
     font-size: 5vw;
     color: black;
+    margin: 0vw;
 }
 
 h1{
@@ -69,3 +66,23 @@ h1{
     margin: 5vw 5vw 5vw 5vw;
 }
 
+select{
+    margin: 5vw 5vw 5vw 5vw;;
+    height: 15vw;
+    text-align: center;
+    font-family: monospace;
+    font-size: 5vw;
+    border-radius: 2vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+button{
+    margin: 5vw 5vw 5vw 5vw;;
+    height: 15vw;
+    text-align: center;
+    font-family: monospace;
+    font-size: 5vw;
+    border-radius: 2vw;
+    border: none;
+    color: black;
+}

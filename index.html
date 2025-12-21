@@ -8,11 +8,15 @@
 </head>
 <body>
     <textarea inputmode="numeric" placeholder="número de jogadores" id="num"></textarea>
-    <button id="prof" onclick="jogar(prof)">PROFISSÕES</button>
-    <button id="prof" onclick="jogar(lugares)">LUGARES</button>
-    <button id="prof" onclick="jogar(animais)">ANIMAIS</button>
-    <button id="prof" onclick="jogar(pessoas)">PESSOAS</button>
-
+    <select id="tema">
+        <option value="prof">PROFISSÕES</option>
+        <option value="lugares">LUGARES</option>
+        <option value="animais">ANIMAIS</option>
+        <option value="pessoas">PESSOAS</option>
+        <option value="objetos">OBJETOS</option>
+        <option value="clash">CLASH ROYALE</option>
+    </select>
+    <button onclick="comecar()">JOGAR</button>
 
     <div id="jogo" class="jogo"></div>
 
