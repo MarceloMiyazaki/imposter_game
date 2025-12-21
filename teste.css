@@ -70,6 +70,7 @@ select{
     margin: 5vw 5vw 5vw 5vw;;
     height: 15vw;
     text-align: center;
+    text-align-last: center;
     font-family: monospace;
     font-size: 5vw;
     border-radius: 2vw;
