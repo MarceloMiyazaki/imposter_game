@@ -186,10 +186,6 @@ const objetos = [
 ];
 
 const pessoas = [
-    "Maitê Nobre",
-    "Anderson Nobre jr",
-    "Maísa Miyazaki",
-    "Henry Miyazaki Nobre",
     "Elon Musk",
     "Virgínia",
     "Vini jr",
@@ -230,4 +226,5 @@ function mostrar(){
 }
 function ocultar(){
     document.getElementById("result").textContent = ""
+
 }
