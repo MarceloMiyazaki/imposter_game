@@ -43,6 +43,7 @@ textarea{
 .resultado h1{
     padding: -20vw 0vw 5vw -5vw;
     text-align: center;
+    font-size: 5vw;
 }
 
 #jogo button{
@@ -54,6 +55,12 @@ textarea{
     font-size: 5vw;
     color: black;
     margin: 0vw;
+}
+
+#custom{
+    height: 20vh;
+    text-align: justify;
+    padding: 5vw 5vw;
 }
 
 h1{

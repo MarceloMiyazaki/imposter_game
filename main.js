@@ -1,5 +1,15 @@
 var palavra
 
+function comparar(){
+    let oxente = document.getElementById("tema").value
+    if (oxente == "custom"){
+        document.getElementById("custom").hidden = false
+    }
+    else{
+        document.getElementById("custom").hidden = true
+    }
+}
+
 function comecar(){
     let oxente = document.getElementById("tema").value
     if (oxente == "prof"){
@@ -22,6 +32,15 @@ function comecar(){
     }
     else if(oxente =="mine"){
         jogar(mine)
+    }
+    else if(oxente =="mine2"){
+        jogar(mine2)
+    }
+    else if(oxente =="custom"){
+        let custom = document.getElementById("custom").value.split('\n')
+        document.getElementById("custom").hidden = true
+        document.getElementById("tema").value = "prof"
+        jogar(custom)
     }
 }
 

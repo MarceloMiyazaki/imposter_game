@@ -8,15 +8,20 @@
 </head>
 <body>
     <textarea inputmode="numeric" placeholder="número de jogadores" id="num"></textarea>
-    <select id="tema">
+    <select onchange="comparar()" id="tema">
         <option value="prof">PROFISSÕES</option>
         <option value="lugares">LUGARES</option>
         <option value="animais">ANIMAIS</option>
         <option value="pessoas">PESSOAS</option>
         <option value="objetos">OBJETOS</option>
         <option value="clash">CLASH ROYALE</option>
-        <option value="mine">MINECRAFT</option>
+        <option value="mine">MINECRAFT (HARDCORE)</option>
+        <option value="mine2">MINECRAFT (EASY)</option>
+        <option value="custom">PERSONALIZADO</option>
     </select>
+
+    <textarea hidden placeholder="Item 1&#10;Item 2&#10;Item 3&#10;..." id="custom"></textarea>
+
     <button onclick="comecar()">JOGAR</button>
 
     <div id="jogo" class="jogo"></div>
@@ -30,6 +35,7 @@
     <script src="temas/clash.js"></script>
     <script src="temas/lugares.js"></script>
     <script src="temas/mine.js"></script>
+    <script src="temas/mine2.js"></script>
     <script src="temas/objetos.js"></script>
     <script src="temas/pessoas.js"></script>
     <script src="temas/prof.js"></script>

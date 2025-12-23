@@ -13,15 +13,6 @@ const pessoas = [
     "Silvio Santos",
     "Rodrigo Faro",
     "Luciano Huck",
-    "Pedro",
-    "João",
-    "Augusto",
-    "Davi",
-    "Dayan",
-    "Gabriel",
-    "Flavio",
-    "Marcelo",
-    "Henrique",
     "Bruno Mars",
     "Justin Bieber"
 ];
