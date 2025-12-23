@@ -4,9 +4,15 @@ function comparar(){
     let oxente = document.getElementById("tema").value
     if (oxente == "custom"){
         document.getElementById("custom").hidden = false
+        document.getElementById("categorias").hidden = true
+    }
+    else if(oxente=="personagens"){
+        document.getElementById("custom").hidden = true
+        document.getElementById("categorias").hidden = false
     }
     else{
         document.getElementById("custom").hidden = true
+        document.getElementById("categorias").hidden = true
     }
 }
 
@@ -30,11 +36,32 @@ function comecar(){
     else if(oxente =="clash"){
         jogar(clash)
     }
+    else if(oxente =="poke"){
+        jogar(pokemon)
+    }
     else if(oxente =="mine"){
         jogar(mine)
     }
     else if(oxente =="mine2"){
         jogar(mine2)
+    }
+    else if(oxente =="personagens"){
+        let final = ["IMPOSTOR!"]
+
+        if(document.getElementById("herois").checked){
+            final = final.concat(herois)
+        }
+        if(document.getElementById("desenhos").checked){
+            final = final.concat(desenhos)
+        }
+        if(document.getElementById("filmes").checked){
+            final = final.concat(filmes)
+        }
+        if(document.getElementById("animes").checked){
+            final = final.concat(animes)
+        }
+
+        jogar(final)
     }
     else if(oxente =="custom"){
         let custom = document.getElementById("custom").value.split('\n')

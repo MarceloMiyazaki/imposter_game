@@ -74,7 +74,7 @@ h1{
 }
 
 select{
-    margin: 5vw 5vw 5vw 5vw;;
+    margin: 5vw 5vw 5vw 5vw;
     height: 15vw;
     text-align: center;
     text-align-last: center;
@@ -85,7 +85,7 @@ select{
 }
 
 button{
-    margin: 5vw 5vw 5vw 5vw;;
+    margin: 5vw 5vw 5vw 5vw;
     height: 15vw;
     text-align: center;
     font-family: monospace;
@@ -93,4 +93,15 @@ button{
     border-radius: 2vw;
     border: none;
     color: black;
+}
+
+#categorias{
+    background-color: white;
+    margin: 5vw 5vw 5vw 5vw;
+    border-radius: 2vw;
+    font-family: monospace;
+    height: 25vw;
+    padding: 5vw 5vw;
+    font-size: 5vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
