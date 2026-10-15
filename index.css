@@ -3,14 +3,9 @@ body{
     display:grid;
 }
 
-button{
-    color: black;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
 textarea{
     resize: none;
-    margin: 5vw 5vw 5vw 5vw;
+    margin: 5vw 5vw 5vw 5vw;    
     text-align: center;
     padding-top: 4vw;
     border-radius: 2vw;
@@ -86,6 +81,8 @@ select{
 }
 
 button{
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin: 5vw 5vw 5vw 5vw;
     height: 15vw;
     text-align: center;
@@ -93,7 +90,6 @@ button{
     font-size: 5vw;
     border-radius: 2vw;
     border: none;
-    color: black;
 }
 
 #categorias{
@@ -106,4 +102,57 @@ button{
     font-size: 5vw;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
+}
+
+#esquerda{
+    display: grid;
+}
+#direita{
+    display: grid;
+}
+
+@media (width = 100vmax) {
+    body {
+        display: flex;
+    }
+
+    button{
+        width: 35vw;
+        height: 15vh;
+        font-size: 3rem;
+        border-radius: 1vw;
+        margin: 3vh 0px 0px 0px;
+    }
+    select{
+        width: 35vw;
+        height: 15vh;
+        font-size: 3rem;
+        border-radius: 1vw;
+        margin: 3vh 0px 0px 0px;
+    }
+    #categorias{
+        margin: 5vw 5vw 5vw 5vw;
+        border-radius: 2vw;
+        height: 25vw;
+        padding: 5vw 5vw;
+        font-size: 5vw;
+    }
+
+    textarea{
+        width: 35vw;
+        height: 11vh;
+        font-size: 3vw;
+        border-radius: 1vw;
+        padding-top: 4vh;
+        margin: 0px;
+    }
+    #esquerda{
+        margin-top: 10vh;
+        width: 50%;
+        justify-items: center;
+    }
+    #direita{
+        width: 50%;
+        justify-items: center;
+    }
 }
